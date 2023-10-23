@@ -281,9 +281,12 @@ text-edge: cap;
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
     const lang = injectionHtml?.getAttribute("lang");
     const locale = lang === "he" ? "he" : "en";
+    const referringDomain = window.location.hostname;
+    const link = `https://stories.bringthemhomenow.net/?utm_source=${referringDomain}&utm_medium=banner`;
+
     injectionHtml!.innerHTML = `
       <style>${styles}</style>
-      <a id="bthnLink" target="_blank" href="https://stories.bringthemhomenow.net/">
+      <a id="bthnLink" target="_blank" href="${link}">
         <div id="closeBthn" role="button" tabindex="0">X</div>
         <div id="bthnSubtitle">${
           texts[locale]["subtitle1"]
