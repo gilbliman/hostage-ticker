@@ -17,6 +17,7 @@ const styles = `
   border-radius: 11px;
   z-index: 9999;
   direction:ltr;
+  box-sizing: content-box;
   
 }
 #bthn[lang=he] {
@@ -108,6 +109,22 @@ const styles = `
   background-color:#E82900
 
 }
+
+@media (max-width: 768px) {
+  #bthn {
+    max-width:calc(100% - 30px);
+    left:15px;
+    
+  }
+  #bthn[lang=he] {
+    right:15px;
+    
+  }
+  #bthn .time-block .time {
+    font-size: 26px;
+
+  }
+}
 `;
 
 function getTimeBlock(title: string, value: number) {
@@ -166,7 +183,7 @@ function updateTicker() {
     } <span style="color: #E82900;">${texts[locale]["title2"]}</span>
    
   </div>
-    <img src="/underline.svg" alt="underline" style="width: 100%; height: auto;"/>
+    <img src="https://bringthemhomenow.net/underline.svg" alt="underline" style="width: 100%; height: auto;"/>
 
   </div>
   </a>
