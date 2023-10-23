@@ -89,6 +89,9 @@ const styles = `
   flex-direction:column;
   align-items:stretch;
 }
+#bthn .title-wrap .underline{
+  aspect-ratio: 274.27/10.16;
+}
 
 #bthn #bthnTitle {
   font-size: 22px;
@@ -178,12 +181,11 @@ function updateTicker() {
       ${getTimeBlock(texts[locale]["seconds"], seconds)}
     </div>
     <div class="title-wrap">
-    <div id="bthnTitle">${
-      texts[locale]["title1"]
-    } <span style="color: #E82900;">${texts[locale]["title2"]}</span>
-   
-  </div>
-    <img src="https://bringthemhomenow.net/underline.svg" alt="underline" style="width: 100%; height: auto;"/>
+      <div id="bthnTitle">${
+        texts[locale]["title1"]
+      } <span style="color: #E82900;">${texts[locale]["title2"]}</span>
+      </div>
+      <img class="underline" src="https://bringthemhomenow.net/underline.svg" alt="underline" style="width: 100%; height: auto;"/>
 
   </div>
   </a>
