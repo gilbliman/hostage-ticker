@@ -16,6 +16,7 @@ const styles = `
   padding: 3px;
   border-radius: 11px;
   z-index: 9999;
+  direction:ltr;
   
 }
 #bthn[lang=he] {
@@ -66,6 +67,7 @@ const styles = `
   padding: 6px 9px;
   margin-bottom:5px;
   color:white;
+  width: 0.6em;
 }
 #bthn #timeBlocks {
   display: flex; 
