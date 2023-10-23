@@ -130,7 +130,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0;
+  margin: 10px 1px;
 }
 #bthn .time-block .time {
   font-size: 32px;
@@ -164,9 +164,9 @@
   margin-bottom: 0.7em;
   font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
   color:white;
-  letter-spacing: 1px;
+  letter-spacing: 0;
   leading-trim: both;
-text-edge: cap;
+  text-edge: cap;
 }
 #bthn .title-wrap{
   display:flex;
