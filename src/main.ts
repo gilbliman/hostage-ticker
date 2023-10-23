@@ -110,7 +110,7 @@ function closeTicker(event: any) {
 
 function setupCounter() {
   updateTicker();
-  // tickerInterval = setInterval(updateTicker, 1000);
+  tickerInterval = setInterval(updateTicker, 1000);
 }
 
 setupCounter();
