@@ -1,21 +1,41 @@
+import { texts } from "./texts";
+
 const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
 let tickerInterval: number;
 const styles = `
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
 #bthn {
   background: black;
+  background: linear-gradient(180deg, #2F2929 0%, #111 100%);
   display: inline-block;
-  position: absolute;
+  position: fixed;
+  bottom: 30px;
+  left:50px;
+  box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
+  padding: 3px;
+  border-radius: 11px;
+  z-index: 9999;
+  
+}
+#bthn[lang=he] {
+  right:50px;
+  left:auto;
 }
 
 #bthn #bthnLink {
-  display: inline-block;
-  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
   padding: 20px;
   text-align: center;
   font-size: 12px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  border-radius: 11px;
+  border: 0.794px solid #867F8A;
+  font-weight: 700;
 }
 
 #bthn #closeBthn {
@@ -31,31 +51,73 @@ const styles = `
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 10px 5px;
 }
 #bthn .time-block .time {
-  font-size: 28px;
-  font-family: Arial Black, sans-serif;
+  font-size: 35px;
+  font-family:  "Open Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 3px;
+}
+#bthn .time-block .time .digit {
+  background-color:#626060;
+  border-radius: 3px;
+  line-height: 1;
+  padding: 6px 9px;
+  margin-bottom:5px;
+  color:white;
 }
 #bthn #timeBlocks {
-  display: flex; font-size: 12px;
+  display: flex; 
+  font-size: 12px;
+  align-items: center;
+  text-transform: uppercase;
+  align-items: center;
+  color:#AFAFAF;
+}
+#bthn #timeBlocks .dots {
+  font-size: 22px;
+  line-height:1;
+  // font-weight:bold;
+  margin-bottom: 0.6em;
+}
+#bthn .title-wrap{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
 }
 
 #bthn #bthnTitle {
-  font-size: 21px;
+  font-size: 22px;
   margin-top: 3px;
-  display: block;
 }
 #bthn #bthnSubtitle {
-  margin-top: 6px;
+  margin-bottom: 6px;
   display:block;
+  font-size:19px;
+
+}
+#bthn[lang=he] #bthnSubtitle {
+  font-size:22px;
+}
+
+
+#bthn #bthnSubtitle .red-bg {
+  background-color:#E82900
+
 }
 `;
 
 function getTimeBlock(title: string, value: number) {
+  const firstDigitasString = value.toString().padStart(2, "0")[0];
+  const secondDigitasString = value.toString().padStart(2, "0")[1];
+
   return `
     <div class="time-block">
-      <div class="time">${value}</div>
+      <div class="time">
+        <span class="digit">${firstDigitasString}</span>
+        <span class="digit">${secondDigitasString}</span>
+      </div>
       <div>${title}</div>
     </div>
   `;
@@ -75,18 +137,36 @@ function updateTicker() {
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
 
-  document.querySelector<HTMLDivElement>("#bthn")!.innerHTML = `
+  const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
+  // get lang attribute from injectionHtml
+  const lang = injectionHtml?.getAttribute("lang");
+  const locale = lang === "he" ? "he" : "en";
+
+  injectionHtml!.innerHTML = `
   <style>${styles}</style>
   <a id="bthnLink" target="_blank" href="https://stories.bringthemhomenow.net/">
-    <div id="closeBthn">X</div>
+    <div id="closeBthn" role="button" tabindex="0">X</div>
+    <div id="bthnSubtitle">${texts[locale]["subtitle1"]} <span class="red-bg">${
+    texts[locale]["subtitle2"]
+  }</span> ${texts[locale]["subtitle3"]}</div>
     <div id="timeBlocks">
-      ${getTimeBlock("days", days)}
-      ${getTimeBlock("hours", hours)}
-      ${getTimeBlock("minutes", minutes)}
-      ${getTimeBlock("seconds", seconds)}
+      ${getTimeBlock(texts[locale]["days"], days)}
+      <span class="dots">:</span>
+      ${getTimeBlock(texts[locale]["hours"], hours)}
+      <span class="dots">:</span>
+      ${getTimeBlock(texts[locale]["minutes"], minutes)}
+      <span class="dots">:</span>
+      ${getTimeBlock(texts[locale]["seconds"], seconds)}
     </div>
-    <div id="bthnSubtitle">Since being taken hostage by Hamas</div>
-    <div id="bthnTitle">BRING THEM HOME <span style="color: red;">NOW</span></div>
+    <div class="title-wrap">
+    <div id="bthnTitle">${
+      texts[locale]["title1"]
+    } <span style="color: #E82900;">${texts[locale]["title2"]}</span>
+   
+  </div>
+    <img src="/underline.svg" alt="underline" style="width: 100%; height: auto;"/>
+
+  </div>
   </a>
 `;
 
