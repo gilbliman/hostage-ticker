@@ -13,6 +13,7 @@
 ## Implementing the Ticker on Your Website
 
 1. Insert an HTML element with the ID `bthn` in the desired location on your site:
+
    ```
    <div id="bthn"></div>
    ```
