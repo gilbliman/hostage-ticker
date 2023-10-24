@@ -172,6 +172,11 @@
   display:flex;
   flex-direction:column;
   align-items:stretch;
+
+}
+#bthn .title-wrap svg{
+  position:relative;
+  
 }
 #bthn .title-wrap .underline{
   aspect-ratio: 274.27/10.16;
