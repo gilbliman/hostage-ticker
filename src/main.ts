@@ -96,6 +96,9 @@
   right:50px;
   left:auto;
 }
+#bthn *{
+  direction:ltr;
+}
 
 #bthn #bthnLink {
   display: flex;
@@ -126,20 +129,20 @@
   left:0;
 }
 
-#bthn .time-block {
+#bthn .bthn-bthn-time-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px 1px;
 }
-#bthn .time-block .time {
+#bthn .bthn-bthn-time-block .bthn-time {
   font-size: 32px;
   font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
   display: flex;
   gap: 3px;
   font-weight: 700;
 }
-#bthn .time-block .time .digit {
+#bthn .bthn-bthn-time-block .bthn-time .bthn-digit {
   background-color:#626060;
   border-radius: 1px;
   line-height: 1;
@@ -148,7 +151,7 @@
   color:white;
   width: 0.6em;
 }
-#bthn #timeBlocks {
+#bthn #bthnTimeBlocks {
   display: flex; 
   font-size: 8px;
   align-items: center;
@@ -157,7 +160,7 @@
   color:#AFAFAF;
   font-weight:400;
 }
-#bthn #timeBlocks .dots {
+#bthn #bthnTimeBlocks .bthn-dots {
   font-size: 24px;
   line-height:1;
   font-weight:300;
@@ -168,17 +171,17 @@
   leading-trim: both;
   text-edge: cap;
 }
-#bthn .title-wrap{
+#bthn .bthn-title-wrap{
   display:flex;
   flex-direction:column;
   align-items:stretch;
 
 }
-#bthn .title-wrap svg{
+#bthn .bthn-title-wrap svg{
   position:relative;
   
 }
-#bthn .title-wrap .underline{
+#bthn .bthn-title-wrap .underline{
   aspect-ratio: 274.27/10.16;
 }
 
@@ -218,7 +221,7 @@
     right:15px;
     
   }
-  #bthn .time-block .time {
+  #bthn .bthn-bthn-time-block .bthn-time {
     font-size: 26px;
 
   }
@@ -231,12 +234,12 @@
     // Now to loop through each character:
 
     return `
-    <div class="time-block">
-      <div class="time">
+    <div class="bthn-bthn-time-block">
+      <div class="bthn-time">
         ${str
           .split("")
           .map((digit) => {
-            return `<span class="digit">${digit}</span>`;
+            return `<span class="bthn-digit">${digit}</span>`;
           })
           .join("")}      
               </div>
@@ -252,16 +255,16 @@
     seconds: number,
     locale: string
   ) {
-    const timeBlocks = document.getElementById("timeBlocks");
-    if (timeBlocks) {
+    const bthnTimeBlocks = document.getElementById("bthnTimeBlocks");
+    if (bthnTimeBlocks) {
       const textsObj: { [key: string]: any } = texts;
-      timeBlocks.innerHTML = `
+      bthnTimeBlocks.innerHTML = `
         ${getTimeBlock(textsObj[locale]["days"], days)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["hours"], hours)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["minutes"], minutes)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["seconds"], seconds)}
       `;
     }
@@ -274,7 +277,7 @@
     // Calculate the difference in milliseconds
     const diffMs = now.getTime() - then.getTime();
 
-    // Calculate time differences
+    // Calculate bthn-time differences
     const totalSeconds = Math.floor(diffMs / 1000);
     const days = Math.floor(totalSeconds / 86400);
     const hours = Math.floor((totalSeconds % 86400) / 3600);
@@ -309,8 +312,8 @@
         } <span class="red-bg">${texts[locale]["subtitle2"]}</span> ${
       texts[locale]["subtitle3"]
     }</div>
-        <div id="timeBlocks"></div>
-        <div class="title-wrap" aria-label="${`${texts[locale]["title1"]} ${texts[locale]["title2"]}`}">
+        <div id="bthnTimeBlocks"></div>
+        <div class="bthn-title-wrap" aria-label="${`${texts[locale]["title1"]} ${texts[locale]["title2"]}`}">
           ${locale === "he" ? hebTitle : engTitle}
           
         </div>
@@ -331,13 +334,39 @@
     event.stopPropagation();
 
     const tickerElem = document.querySelector<HTMLDivElement>("#bthn");
+
     if (tickerElem) {
       tickerElem.remove();
     }
     clearInterval(tickerInterval);
+
+    if (sessionStorage) {
+      sessionStorage.setItem("btnhSessionClosed", "true");
+    }
+  }
+
+  function disableWidgetOnMobile() {
+    let isDisable = false;
+    const tickerElem = document.querySelector<HTMLDivElement>("#bthn");
+    const disableMobile = tickerElem?.getAttribute("disable-mobile");
+
+    if (disableMobile) {
+      // check if has query param mobile=1
+      const urlParams = new URLSearchParams(window.location.search);
+      const mobile = urlParams.get("mobile");
+      isDisable = mobile === "1" ? true : false;
+    }
+    return isDisable;
+  }
+  function disableOnSessionClosed() {
+    // if sessionStorage is available and has btnhSessionClosed key retruen false
+    const isSessionClosed =
+      sessionStorage && sessionStorage.getItem("btnhSessionClosed");
+    return isSessionClosed ? true : false;
   }
 
   function setupCounter() {
+    if (disableWidgetOnMobile() || disableOnSessionClosed()) return;
     initializeWidget();
     tickerInterval = setInterval(updateTicker, 1000);
   }
