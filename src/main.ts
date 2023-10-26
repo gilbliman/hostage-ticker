@@ -348,7 +348,7 @@
   function disableWidgetOnMobile() {
     let isDisable = false;
     const tickerElem = document.querySelector<HTMLDivElement>("#bthn");
-    const disableMobile = tickerElem?.getAttribute("disable-mobile");
+    const disableMobile = tickerElem?.getAttribute("disable-on-mobile-param");
 
     if (disableMobile) {
       // check if has query param mobile=1
