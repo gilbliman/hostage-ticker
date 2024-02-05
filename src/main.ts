@@ -147,6 +147,11 @@
   cursor: pointer;
   z-index: 10;
   padding: 8px 10px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #bthn[lang=he] #closeBthn  {
@@ -636,6 +641,11 @@ letter-spacing: 0.69px;
   }
   function initializeWidget() {
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
+    injectionHtml?.setAttribute("role", "region");
+    injectionHtml?.setAttribute(
+      "aria-label",
+      "חלון צף בנושא החזרת החטופים מעזה"
+    );
     const lang = injectionHtml?.getAttribute("lang");
     const isClickable =
       !injectionHtml?.getAttribute("not-clickable") &&
@@ -646,12 +656,13 @@ letter-spacing: 0.69px;
 
     injectionHtml!.innerHTML = `
       <style>${styles}</style>
+      <div id="closeBthn" role="button" tabindex="0" aria-label="סגור חלון צף בנושא החטופים בעזה">X</div>
       ${
         isClickable
           ? `<a id="bthnLink" target="_blank" href="${link}">`
           : `<a id="bthnLink">`
       }
-        <div id="closeBthn" role="button" tabindex="0">X</div>
+       
         <div id="bthnSubtitle">${
           texts[locale]["subtitle1"]
         } <span class="red-bg">${texts[locale]["subtitle2"]}</span> ${
