@@ -97,6 +97,13 @@
   </svg>
   `;
 
+  const a11yCloseHe = "סגור חלון צף בנושא החטופים בעזה";
+  const a11yCloseEn = "Close Floating Window about the Hostages";
+
+  const a11yTitleHe = "חלון צף בנושא החזרת החטופים מעזה";
+
+  const a11yTitleEn = "Floating Window about the Bring the Hostages Home";
+
   const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
   let tickerInterval: number;
   const styles = `
@@ -642,11 +649,13 @@ letter-spacing: 0.69px;
   function initializeWidget() {
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
     injectionHtml?.setAttribute("role", "region");
+
+    const lang = injectionHtml?.getAttribute("lang");
+
     injectionHtml?.setAttribute(
       "aria-label",
-      "חלון צף בנושא החזרת החטופים מעזה"
+      lang === "he" ? a11yTitleHe : a11yTitleEn
     );
-    const lang = injectionHtml?.getAttribute("lang");
     const isClickable =
       !injectionHtml?.getAttribute("not-clickable") &&
       !injectionHtml?.classList.contains("bthn-mako");
@@ -656,7 +665,9 @@ letter-spacing: 0.69px;
 
     injectionHtml!.innerHTML = `
       <style>${styles}</style>
-      <div id="closeBthn" role="button" tabindex="0" aria-label="סגור חלון צף בנושא החטופים בעזה">X</div>
+      <div id="closeBthn" role="button" tabindex="0" aria-label="${
+        locale === "en" ? a11yCloseEn : a11yCloseHe
+      }">X</div>
       ${
         isClickable
           ? `<a id="bthnLink" target="_blank" href="${link}">`
