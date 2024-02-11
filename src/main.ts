@@ -648,9 +648,11 @@ letter-spacing: 0.69px;
   }
   function initializeWidget() {
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
-    injectionHtml?.setAttribute("role", "region");
 
     const lang = injectionHtml?.getAttribute("lang");
+
+    injectionHtml?.setAttribute("role", "dialog");
+    injectionHtml?.setAttribute("aria-modal", "false");
 
     injectionHtml?.setAttribute(
       "aria-label",
