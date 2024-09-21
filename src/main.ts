@@ -104,7 +104,8 @@
 
   const a11yTitleEn = "Floating Window about the Bring the Hostages Home";
 
-  const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
+  // const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
+  const counterStart = 1696562400; // Friday, October 6, 2023 6:20:00 AM GMT+03:00
   let tickerInterval: number;
   const styles = `
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;600;700;800&display=swap');
@@ -663,7 +664,9 @@ letter-spacing: 0.69px;
       !injectionHtml?.classList.contains("bthn-mako");
     const locale = lang === "he" ? "he" : "en";
     const referringDomain = window.location.hostname;
-    const link = `https://stories.bringthemhomenow.net/?utm_source=${referringDomain}&utm_medium=banner`;
+    const link = `https://stories.bringthemhomenow.net/${
+      locale === "he" ? "home-he/" : ""
+    }?utm_source=${referringDomain}&utm_medium=banner`;
 
     injectionHtml!.innerHTML = `
       <style>${styles}</style>
