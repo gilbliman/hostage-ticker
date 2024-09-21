@@ -29,15 +29,15 @@
       <path d="M113.985 16.2096L112.343 1.97803H114.056L115.204 14.2705L116.37 1.97803H118.242L119.425 14.2705L120.521 1.97803H122.251L120.591 16.2096H118.207L117.288 6.14076L116.37 16.2096H113.985Z" fill="#E82900"/>
       <path d="M108.618 16.3875C106.976 16.3875 105.898 15.3379 105.898 13.6123V4.57526C105.898 2.84969 106.976 1.80011 108.618 1.80011C110.279 1.80011 111.356 2.84969 111.356 4.57526V13.6123C111.356 15.3379 110.279 16.3875 108.618 16.3875ZM108.618 14.7864C109.236 14.7864 109.643 14.395 109.643 13.6479V4.53969C109.643 3.79253 109.236 3.40116 108.618 3.40116C108.018 3.40116 107.611 3.79253 107.611 4.53969V13.6479C107.611 14.395 108.018 14.7864 108.618 14.7864Z" fill="#E82900"/>
       <path d="M98.7526 16.2096V1.97803H100.642L102.921 12.5983L102.585 8.45339V1.97803H104.21V16.2096H102.391L100.024 5.5715L100.378 9.6097V16.2096H98.7526Z" fill="#E82900"/>
-      <path d="M89.2878 16.2096V1.97803H91.0011V7.95528L92.8557 1.97803H94.622L92.3258 8.80918L94.675 16.2096H92.9087L91.0011 9.68086V16.2096H89.2878Z" fill="white"/>
-      <path d="M84.859 16.3875C83.2164 16.3875 82.1389 15.3379 82.1389 13.6123V4.57526C82.1389 2.84969 83.2164 1.80011 84.859 1.80011C86.5193 1.80011 87.5967 2.84969 87.5967 4.57526V6.63884H85.8834V4.53969C85.8834 3.79253 85.4772 3.40116 84.859 3.40116C84.2585 3.40116 83.8522 3.79253 83.8522 4.53969V13.6479C83.8522 14.395 84.2585 14.7864 84.859 14.7864C85.4772 14.7864 85.8834 14.395 85.8834 13.6479V11.1574H87.5967V13.6123C87.5967 15.3379 86.5193 16.3875 84.859 16.3875Z" fill="white"/>
-      <path d="M74.7548 16.2096L76.7683 1.97803H79.0292L81.0427 16.2096H79.3294L78.9762 13.0964H76.8213L76.4681 16.2096H74.7548ZM76.9979 11.5843H78.8172L77.8987 3.73918L76.9979 11.5843Z" fill="white"/>
-      <path d="M68.2601 16.2096V1.97803H70.9272C72.5698 1.97803 73.6473 3.00981 73.6473 4.73539V6.78118C73.6473 7.7596 73.4177 8.4356 72.7112 8.89812C73.4177 9.34286 73.6826 10.0366 73.6826 11.0151V13.4344C73.6826 15.16 72.6052 16.2096 70.9449 16.2096H68.2601ZM70.9449 14.6085C71.5631 14.6085 71.9693 14.2172 71.9693 13.47V10.8016C71.9693 9.9477 71.6337 9.6097 70.9095 9.6097H69.9734V14.6085H70.9449ZM70.9095 8.0976C71.6337 8.07981 71.934 7.74181 71.934 6.9057V4.69981C71.934 3.95266 71.5277 3.57908 70.9272 3.57908H69.9734V8.0976H70.9095Z" fill="white"/>
       <path d="M55.9148 16.2096V1.97803H58.4052L59.7476 13.4344L61.1077 1.97803H63.5804V16.2096H61.9555V9.52075L62.2204 4.11276L60.7367 16.2096H58.7232L57.2748 4.0416L57.5398 9.48517V16.2096H55.9148Z" fill="white"/>
+      <path d="M81.6818 16.2096V1.97803H84.1722L85.5146 13.4344L86.8746 1.97803H89.3474V16.2096H87.7224V9.52075L87.9874 4.11276L86.5037 16.2096H84.4901L83.0418 4.0416L83.3067 9.48517V16.2096H81.6818Z" fill="white"/>
       <path d="M50.0613 16.2096V1.97803H54.5123V3.57908H51.7746V8.11539H54.1767V9.71644H51.7746V14.6085H54.5123V16.2096H50.0613Z" fill="white"/>
+      <path d="M90.5714 16.2096V1.97803H95.0224V3.57908H92.2847V8.11539H94.6868V9.71644H92.2847V14.6085H95.0224V16.2096H90.5714Z" fill="white"/>
       <path d="M42.845 16.2096V1.97803H44.5583V8.15097H46.5895V1.97803H48.3028V16.2096H46.5895V9.75202H44.5583V16.2096H42.845Z" fill="white"/>
+      <path d="M68.2601 16.2096V1.97803H69.9734V8.15097H72.0046V1.97803H73.7179V16.2096H72.0046V9.75202H69.9734V16.2096H68.2601Z" fill="white"/>
       <path d="M38.124 16.2096V3.57908H36.3401V1.97803H41.6213V3.57908H39.8373V16.2096H38.124Z" fill="white"/>
       <path d="M29.5552 16.3875C27.9125 16.3875 26.8351 15.3379 26.8351 13.6123V4.57526C26.8351 2.84969 27.9125 1.80011 29.5552 1.80011C31.2155 1.80011 32.2929 2.84969 32.2929 4.57526V6.63884H30.5796V4.53969C30.5796 3.79253 30.1733 3.40116 29.5552 3.40116C28.9546 3.40116 28.5484 3.79253 28.5484 4.53969V13.6479C28.5484 14.395 28.9546 14.7864 29.5552 14.7864C30.1733 14.7864 30.5796 14.395 30.5796 13.6479V9.9121H29.5552V8.4H32.2929V13.6123C32.2929 15.3379 31.2155 16.3875 29.5552 16.3875Z" fill="white"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M77.7201 16.5654C76.0774 16.5654 75 15.5158 75 13.7902V4.75318C75 3.0276 76.0774 1.97803 77.7201 1.97803C79.3804 1.97803 80.4578 3.0276 80.4578 4.75318V13.7902C80.4578 15.5158 79.3804 16.5654 77.7201 16.5654ZM77.7201 3.57908C78.3383 3.57908 78.7445 3.97045 78.7445 4.7176V13.8258C78.7445 14.573 78.3383 14.9643 77.7201 14.9643C77.1195 14.9643 76.7133 14.573 76.7133 13.8258V4.7176C76.7133 3.97045 77.1195 3.57908 77.7201 3.57908Z" fill="white"/>
       <path d="M19.6896 16.2096V1.97803H21.5795L23.858 12.5983L23.5224 8.45339V1.97803H25.1474V16.2096H23.3281L20.9613 5.5715L21.3146 9.6097V16.2096H19.6896Z" fill="white"/>
       <path d="M16.2164 16.2096V1.97803H17.9297V16.2096H16.2164Z" fill="white"/>
       <path d="M9.18994 16.2096V1.97803H11.804C13.4467 1.97803 14.5241 3.00981 14.5241 4.73539V7.59949C14.5241 8.66686 14.1179 9.4496 13.429 9.87654L14.895 16.2096H13.1287L11.963 10.3746H10.9032V16.2096H9.18994ZM11.7864 8.86254C12.4046 8.86254 12.8108 8.47118 12.8108 7.72402V4.69981C12.8108 3.95266 12.4046 3.57908 11.7864 3.57908H10.9032V8.86254H11.7864Z" fill="white"/>
@@ -71,8 +71,41 @@
       <path d="M152.723 18.4261L152.736 18.5444H152.742L152.743 18.5671H152.738L152.751 18.6839H152.691L152.678 18.5686L144.581 18.79C144.581 18.7475 144.581 18.7066 144.581 18.6642L145.183 18.6475L152.678 18.5459L152.665 18.4291H152.725L152.723 18.4261ZM9.7814 21.1434L15.9484 21.2177L19.0318 21.2541L22.1153 21.2799L28.2824 21.33L34.4493 21.3633C38.5606 21.3906 42.6719 21.3921 46.7814 21.4088C50.8927 21.4134 55.0021 21.4194 59.1135 21.4255H66.9572L74.8028 21.4118L76.7647 21.4088L78.7247 21.3997L82.6466 21.383L86.5685 21.3648L90.4904 21.336C100.949 21.2617 111.409 21.1404 121.86 20.9357C124.842 20.8781 127.822 20.8144 130.803 20.7477C138.164 20.684 145.526 20.596 152.884 20.4853L152.85 20.1669C152.89 20.1669 152.929 20.1639 152.969 20.1639L152.623 16.9506C152.584 16.9506 152.545 16.9506 152.505 16.9521L152.471 16.6337C143.063 16.9082 133.65 17.1265 124.234 17.2933C123.42 17.2994 122.606 17.307 121.792 17.313C90.3497 17.5223 58.8902 17.2569 27.4795 16.5094C26.5755 16.4881 25.6696 16.473 24.7656 16.4563L22.0497 16.4123C20.2379 16.3865 18.4279 16.3607 16.6161 16.3365L16.7437 16.6458C20.7049 16.7975 24.6755 16.9279 28.6518 17.0173C30.6399 17.0628 32.628 17.1098 34.6199 17.1432C36.6099 17.1751 38.6 17.2069 40.5919 17.2372C48.5576 17.3449 56.5251 17.4131 64.4777 17.5208L67.4862 17.5663L70.4945 17.6042L76.5115 17.6815C78.1451 17.6982 79.7807 17.7179 81.4143 17.7361C74.1539 17.7695 66.8915 17.7862 59.6311 17.7786C59.3028 17.774 58.9746 17.7725 58.6464 17.768L58.6426 17.7786C41.1226 17.7573 23.6045 17.6163 6.08643 17.354C2.4684 17.2994 1.11987 17.4298 1.0561 17.8589C0.922935 18.7688 0.335865 19.671 0.298353 20.5824C0.292726 20.7158 2.1158 20.963 3.38558 21.0267C5.3906 21.1252 7.63947 21.1116 9.78516 21.145" fill="#E82900"/>
     </svg>
   `;
+  const hebTitleBanner = `<svg width="294" height="174" viewBox="0 0 294 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M287.812 162.612L287.837 163.055H287.847L287.851 163.141H287.84L287.865 163.579H287.752L287.728 163.146L272.54 163.977C272.54 163.818 272.54 163.664 272.54 163.505L273.669 163.442L287.728 163.061L287.703 162.623H287.816L287.812 162.612ZM19.6966 172.806L31.2639 173.084L37.0476 173.221L42.8313 173.318L54.3988 173.505L65.9662 173.63C73.6778 173.733 81.3894 173.738 89.0975 173.801C96.8091 173.818 104.517 173.841 112.229 173.864H126.941L141.657 173.812L145.337 173.801L149.014 173.767L156.37 173.704L163.726 173.636L171.083 173.528C190.699 173.249 210.32 172.794 229.922 172.026C235.516 171.81 241.106 171.571 246.696 171.321C260.505 171.082 274.313 170.752 288.114 170.337L288.051 169.142C288.125 169.142 288.199 169.131 288.273 169.131L287.626 157.077C287.552 157.077 287.478 157.077 287.404 157.082L287.341 155.888C269.694 156.917 252.037 157.736 234.376 158.362C232.849 158.385 231.322 158.413 229.795 158.436C170.819 159.221 111.81 158.226 52.893 155.421C51.1973 155.342 49.4982 155.285 47.8025 155.222L42.7083 155.057C39.3099 154.96 35.9148 154.864 32.5164 154.773L32.7557 155.933C40.1858 156.502 47.6335 156.991 55.0918 157.327C58.821 157.498 62.55 157.674 66.2862 157.799C70.0189 157.918 73.7517 158.038 77.4879 158.152C92.4291 158.556 107.374 158.812 122.29 159.215L127.933 159.386L133.576 159.528L144.862 159.818C147.927 159.881 150.994 159.955 154.059 160.023C140.44 160.148 126.818 160.211 113.2 160.183C112.584 160.165 111.968 160.16 111.353 160.143L111.346 160.183C78.4834 160.103 45.6247 159.574 12.7659 158.59C5.97956 158.385 3.45013 158.874 3.33052 160.484C3.08073 163.897 1.97957 167.282 1.9092 170.701C1.89865 171.201 5.3182 172.129 7.69993 172.368C11.4607 172.737 15.6789 172.686 19.7036 172.811" fill="#E82900"/>
+  <path d="M279.719 140.275V91.1399H264.425V84.9115H286.432V140.275H279.719ZM265.532 140.275V101.728H272.245V140.275H265.532Z" fill="white"/>
+  <path d="M238.907 140.275V134.047H249.496V91.1399H238.907V84.9115H256.208V134.047H259.115V140.275H238.907Z" fill="white"/>
+  <path d="M225.811 120.829V91.1399H221.589V84.9115H232.524V120.829H225.811Z" fill="white"/>
+  <path d="M189.785 140.275V134.047H194.352V91.1399H190.823V84.9115H205.01C211.93 84.9115 215.737 88.787 215.737 96.4687V140.275H209.024V96.1918C209.024 92.7316 207.709 91.1399 205.01 91.1399H201.065V140.275H189.785Z" fill="white"/>
+  <path d="M177.031 140.275V91.1399H161.737V84.9115H183.744V140.275H177.031ZM162.844 140.275V101.728H169.557V140.275H162.844Z" fill="white"/>
+  <path d="M120.592 140.275V134.047H124.813L121.214 84.9115H127.927L131.041 134.047H132.979C135.609 134.047 136.924 132.455 136.924 128.995V84.9115H143.637V128.649C143.637 136.33 139.9 140.275 132.979 140.275H120.592Z" fill="#E82900"/>
+  <path d="M96.7052 140.275V134.047H103.556C106.186 134.047 107.501 132.455 107.501 128.995V91.1399H96.636V84.9115H114.214V128.649C114.214 136.33 110.477 140.275 103.556 140.275H96.7052Z" fill="#E82900"/>
+  <path d="M62.2901 140.275L59.2451 84.9115H65.6811L67.2036 118.406H71.6327V84.9115H77.9303V124.15H67.4805L67.9649 134.047H79.7989C82.4978 134.047 83.8127 132.455 83.8127 128.995V84.9115H90.5256V128.649C90.5256 136.33 86.7193 140.275 79.7989 140.275H62.2901Z" fill="#E82900"/>
+  <path d="M45.8033 120.829V91.1399H41.5818V84.9115H52.5161V120.829H45.8033Z" fill="#E82900"/>
+  <path d="M28.2125 140.275V91.1399H23.7834V84.9115H34.9254V140.275H28.2125Z" fill="#E82900"/>
+  <path d="M263.073 68.8636L266.603 19.7284H263.004V13.5H275.461C282.381 13.5 286.118 17.3755 286.118 25.0572V68.8636H274.838V62.6352H279.405V24.7803C279.405 21.3201 278.09 19.7284 275.461 19.7284H272.693L269.786 68.8636H263.073Z" fill="white"/>
+  <path d="M235.294 68.8636V13.5H245.952C252.872 13.5 256.679 17.3755 256.679 25.0572V68.8636H249.966V24.7803C249.966 21.3201 248.651 19.7284 245.952 19.7284H242.007V68.8636H235.294Z" fill="white"/>
+  <path d="M219.698 68.8636V50.9397L216.515 19.7284H213.124V13.5H229.248V19.7284H222.951L226.411 51.4241V68.8636H219.698Z" fill="white"/>
+  <path d="M200.72 49.4172V19.7284H196.498V13.5H207.433V49.4172H200.72Z" fill="white"/>
+  <path d="M183.97 24.7803C183.97 21.3201 182.655 19.7284 179.956 19.7284H171.444V13.5H179.956C186.877 13.5 190.683 17.3755 190.683 25.0572V68.8636H183.97V24.7803Z" fill="white"/>
+  <path d="M159.041 49.4172V19.7284H154.819V13.5H165.753V49.4172H159.041Z" fill="white"/>
+  <path d="M126.771 68.8636V13.5H148.155V68.8636H126.771ZM133.483 62.9812H141.442V19.3824H133.483V62.9812Z" fill="white"/>
+  <path d="M85.6337 48.6559C85.8413 41.0434 87.779 36.8911 91.4469 34.9534L83.9036 14.5381V13.5H90.5472L98.5749 37.514H99.8898L101.343 13.5H107.779L105.426 42.3583L100.305 42.4275L109.648 67.5488V68.8636H103.142L93.4538 40.2822C92.0005 41.3202 91.7237 43.258 91.6545 46.0261L91.4469 68.8636H84.8724L85.6337 48.6559Z" fill="white"/>
+  <path d="M71.2257 68.8636V19.7284H66.7966V13.5H77.9386V68.8636H71.2257Z" fill="white"/>
+  <path d="M34.9912 68.8636V62.6352H39.5587V19.7284H36.0293V13.5H50.2162C57.1367 13.5 60.9429 17.3755 60.9429 25.0572V68.8636H54.2301V24.7803C54.2301 21.3201 52.9152 19.7284 50.2162 19.7284H46.2716V68.8636H34.9912Z" fill="white"/>
+  <path d="M7.63647 68.8636V13.5H29.0207V68.8636H7.63647ZM14.3493 62.9812H22.3078V19.3824H14.3493V62.9812Z" fill="white"/>
+  </svg>
+  `;
 
-  const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
+  const a11yCloseHe = "סגור חלון צף בנושא החטופים בעזה";
+  const a11yCloseEn = "Close Floating Window about the Hostages";
+
+  const a11yTitleHe = "חלון צף בנושא החזרת החטופים מעזה";
+
+  const a11yTitleEn = "Floating Window about the Bring the Hostages Home";
+
+  // const counterStart = 1696648800; // Saturday, October 7, 2023 6:20:00 AM GMT+03:00
+  const counterStart = 1696562400; // Friday, October 6, 2023 6:20:00 AM GMT+03:00
   let tickerInterval: number;
   const styles = `
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;600;700;800&display=swap');
@@ -95,6 +128,9 @@
 #bthn[lang=he] {
   right:50px;
   left:auto;
+}
+#bthn *{
+  direction:ltr;
 }
 
 #bthn #bthnLink {
@@ -119,6 +155,11 @@
   cursor: pointer;
   z-index: 10;
   padding: 8px 10px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #bthn[lang=he] #closeBthn  {
@@ -126,20 +167,20 @@
   left:0;
 }
 
-#bthn .time-block {
+#bthn .bthn-bthn-time-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px 1px;
 }
-#bthn .time-block .time {
+#bthn .bthn-bthn-time-block .bthn-time {
   font-size: 32px;
   font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
   display: flex;
   gap: 3px;
   font-weight: 700;
 }
-#bthn .time-block .time .digit {
+#bthn .bthn-bthn-time-block .bthn-time .bthn-digit {
   background-color:#626060;
   border-radius: 1px;
   line-height: 1;
@@ -148,7 +189,7 @@
   color:white;
   width: 0.6em;
 }
-#bthn #timeBlocks {
+#bthn #bthnTimeBlocks {
   display: flex; 
   font-size: 8px;
   align-items: center;
@@ -157,7 +198,7 @@
   color:#AFAFAF;
   font-weight:400;
 }
-#bthn #timeBlocks .dots {
+#bthn #bthnTimeBlocks .bthn-dots {
   font-size: 24px;
   line-height:1;
   font-weight:300;
@@ -168,17 +209,19 @@
   leading-trim: both;
   text-edge: cap;
 }
-#bthn .title-wrap{
+#bthn .bthn-title-wrap{
   display:flex;
   flex-direction:column;
   align-items:stretch;
 
 }
-#bthn .title-wrap svg{
+#bthn .bthn-title-wrap svg{
   position:relative;
+  width: auto;
+  height: auto;
   
 }
-#bthn .title-wrap .underline{
+#bthn .bthn-title-wrap .underline{
   aspect-ratio: 274.27/10.16;
 }
 
@@ -218,23 +261,344 @@
     right:15px;
     
   }
-  #bthn .time-block .time {
+  #bthn .bthn-bthn-time-block .bthn-time {
     font-size: 26px;
 
   }
 }
+
+
+#bthn.bthn-banner {
+  display: flex;
+  width: 1280px;
+  height: 250px;
+  
+  position:relative;
+  inset:auto;
+  background: linear-gradient(180deg, #2F2929 0%, #111 100%);
+  box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
+  border-radius:2px;
+  padding:0;
+}
+#bthn.bthn-banner #bthnLink{
+  border-radius: 2px;
+  border: 1px solid #867F8A;
+  padding: 32px 28px;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 30px;
+
+}
+#bthn.bthn-banner #closeBthn {
+  display:none;
+}
+#bthn.bthn-banner #bthnSubtitle {
+  font-size:44px;
+  font-weight: 600;
+line-height: 140%; /* 64.4px */
+letter-spacing: 0.69px;
+  margin:0;
+  flex-grow:1;
+  flex-shrink:1;
+  width:270px;
+}
+#bthn.bthn-banner  #bthnTimeBlocks{
+  font-size:24px;
+}
+
+#bthn.bthn-banner  #bthnTimeBlocks .bthn-bthn-time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 6px;
+}
+#bthn.bthn-banner  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time {
+  font-size: 96px;
+  font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 3px;
+  font-weight: 700;
+
+}
+#bthn.bthn-banner  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time .bthn-digit {
+  background-color:#626060;
+  border-radius: 3px;
+  line-height: 1;
+  padding: 12px 2px;
+  margin-bottom:6px;
+  color:white;
+  width: 0.6em;
+}
+#bthn.bthn-banner  #bthnTimeBlocks .bthn-dots {
+  font-size: 72px;
+  line-height:1;
+  font-weight:300;
+  margin-bottom: 0.7em;
+  font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
+  color:white;
+  letter-spacing: 0;
+  leading-trim: both;
+  text-edge: cap;
+}
+#bthn.bthn-banner .bthn-title-wrap{
+  display:none;
+
+}
+#bthn.bthn-banner .bthn-title-wrap-banner{
+  display:flex;
+}
+#bthn .bthn-title-wrap-banner{
+  display:none;
+}
+
+
+#bthn.bthn-banner-mobile {
+  display: flex;
+  width: 360px;
+  height: 250px;
+  
+  position:relative;
+  inset:auto;
+  background: linear-gradient(180deg, #2F2929 0%, #111 100%);
+  box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
+  border-radius:2px;
+  padding:0;
+}
+
+#bthn.bthn-banner-mobile #bthnLink{
+  border-radius: 2px;
+  border: 1px solid #867F8A;
+  padding: 8px 10px;
+  width: 100%;
+  gap: 6px;
+  justify-content: center;
+}
+#bthn.bthn-banner-mobile #closeBthn {
+  display:none;
+}
+
+#bthn.bthn-banner-mobile #bthnSubtitle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 26.4px */
+  letter-spacing: 0.36px;
+  width: 100%;
+}
+
+#bthn.bthn-banner-mobile  #bthnTimeBlocks{
+  font-size:12px;
+}
+
+#bthn.bthn-banner-mobile  #bthnTimeBlocks .bthn-bthn-time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 2px;
+}
+#bthn.bthn-banner-mobile  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time {
+  font-size: 48px;
+  display: flex;
+  gap: 3px;
+  font-weight: 700;
+
+}
+#bthn.bthn-banner-mobile  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time .bthn-digit {
+  border-radius: 1.5px;
+  line-height: 1;
+  padding: 6px 1px;
+  margin-bottom:6px;
+  color:white;
+  width: 0.6em;
+}
+#bthn.bthn-banner-mobile  #bthnTimeBlocks .bthn-dots {
+  font-size: 36px;
+  line-height:1;
+  font-weight:300;
+  margin-bottom: 0.7em;
+  color:white;
+  letter-spacing: 0;
+  leading-trim: both;
+  text-edge: cap;
+}
+#bthn.bthn-banner-mobile .bthn-title-wrap svg {
+  position: relative;
+  width: 306px;
+  height: 44px;
+}
+
+#bthn.bthn-mako {
+  width: 970px;
+  height: 330px;
+  position:relative;
+  inset:auto;
+  background: linear-gradient(180deg, #2F2929 0%, #111 100%);
+  box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
+  border-radius:2px;
+  padding:0;
+  display:flex;
+}
+#bthn.bthn-mako #bthnLink{
+  border-radius: 2px;
+  border: 1px solid #867F8A;
+  padding: 12px 28px;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+
+}
+#bthn.bthn-mako #closeBthn {
+  display:none;
+}
+#bthn.bthn-mako #bthnSubtitle {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 110%; /* 33px */
+  letter-spacing: 0.45px;
+  margin:0;
+  width:100%;
+}
+#bthn.bthn-mako  #bthnTimeBlocks{
+  font-size:24px;
+}
+
+#bthn.bthn-mako  #bthnTimeBlocks .bthn-bthn-time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 6px;
+}
+#bthn.bthn-mako  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time {
+  font-size: 96px;
+  font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 3px;
+  font-weight: 700;
+
+}
+#bthn.bthn-mako  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time .bthn-digit {
+  background-color:#626060;
+  border-radius: 3px;
+  line-height: 1;
+  padding: 12px 2px;
+  margin-bottom:6px;
+  color:white;
+  width: 0.6em;
+}
+#bthn.bthn-mako  #bthnTimeBlocks .bthn-dots {
+  font-size: 72px;
+  line-height:1;
+  font-weight:300;
+  margin-bottom: 0.7em;
+  font-family: "Open Sans Condensed", "Open Sans", Arial, Helvetica, sans-serif;
+  color:white;
+  letter-spacing: 0;
+  leading-trim: both;
+  text-edge: cap;
+}
+
+#bthn.bthn-mako .bthn-title-wrap svg {
+  position: relative;
+  width: 382px;
+  height: auto;
+}
+
+#bthn.bthn-mako-mobile {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  
+  position:relative;
+  inset:auto;
+  background: linear-gradient(180deg, #2F2929 0%, #111 100%);
+  box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
+  border-radius:2px;
+  padding:0;
+  display:flex;
+  max-width: none;
+}
+
+#bthn.bthn-mako-mobile #bthnLink{
+  border-radius: 2px;
+  border: 1px solid #867F8A;
+  padding: 8px 10px;
+  width: 100%;
+  gap: 6px;
+  justify-content: center;
+}
+#bthn.bthn-mako-mobile #closeBthn {
+  display:none;
+}
+
+#bthn.bthn-mako-mobile #bthnSubtitle {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 26.4px */
+  letter-spacing: 0.36px;
+  width: 100%;
+}
+
+#bthn.bthn-mako-mobile  #bthnTimeBlocks{
+  font-size:12px;
+}
+
+#bthn.bthn-mako-mobile  #bthnTimeBlocks .bthn-bthn-time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 2px;
+}
+#bthn.bthn-mako-mobile  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time {
+  font-size: 40px;
+  display: flex;
+  gap: 3px;
+  font-weight: 700;
+
+}
+#bthn.bthn-mako-mobile  #bthnTimeBlocks .bthn-bthn-time-block .bthn-time .bthn-digit {
+  border-radius: 1.5px;
+  line-height: 1;
+  padding: 6px 1px;
+  margin-bottom:6px;
+  color:white;
+  width: 0.6em;
+}
+#bthn.bthn-mako-mobile  #bthnTimeBlocks .bthn-dots {
+  font-size: 36px;
+  line-height:1;
+  font-weight:300;
+  margin-bottom: 0.7em;
+  color:white;
+  letter-spacing: 0;
+  leading-trim: both;
+  text-edge: cap;
+}
+#bthn.bthn-mako-mobile .bthn-title-wrap svg {
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+
+
 `;
 
   function getTimeBlock(title: string, value: number) {
-    const firstDigitasString = value.toString().padStart(2, "0")[0];
-    const secondDigitasString = value.toString().padStart(2, "0")[1];
+    const str = value.toString().padStart(2, "0"); // str will be '100'
+
+    // Now to loop through each character:
 
     return `
-    <div class="time-block">
-      <div class="time">
-        <span class="digit">${firstDigitasString}</span>
-        <span class="digit">${secondDigitasString}</span>
-      </div>
+    <div class="bthn-bthn-time-block">
+      <div class="bthn-time">
+        ${str
+          .split("")
+          .map((digit) => {
+            return `<span class="bthn-digit">${digit}</span>`;
+          })
+          .join("")}      
+              </div>
       <div>${title}</div>
     </div>
   `;
@@ -247,16 +611,16 @@
     seconds: number,
     locale: string
   ) {
-    const timeBlocks = document.getElementById("timeBlocks");
-    if (timeBlocks) {
+    const bthnTimeBlocks = document.getElementById("bthnTimeBlocks");
+    if (bthnTimeBlocks) {
       const textsObj: { [key: string]: any } = texts;
-      timeBlocks.innerHTML = `
+      bthnTimeBlocks.innerHTML = `
         ${getTimeBlock(textsObj[locale]["days"], days)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["hours"], hours)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["minutes"], minutes)}
-        <span class="dots">:</span>
+        <span class="bthn-dots">:</span>
         ${getTimeBlock(textsObj[locale]["seconds"], seconds)}
       `;
     }
@@ -269,7 +633,7 @@
     // Calculate the difference in milliseconds
     const diffMs = now.getTime() - then.getTime();
 
-    // Calculate time differences
+    // Calculate bthn-time differences
     const totalSeconds = Math.floor(diffMs / 1000);
     const days = Math.floor(totalSeconds / 86400);
     const hours = Math.floor((totalSeconds % 86400) / 3600);
@@ -279,29 +643,54 @@
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
     // get lang attribute from injectionHtml
     const lang = injectionHtml?.getAttribute("lang");
+
     const locale = lang === "he" ? "he" : "en";
     updateTimer(days, hours, minutes, seconds, locale);
   }
   function initializeWidget() {
     const injectionHtml = document.querySelector<HTMLDivElement>("#bthn");
+
     const lang = injectionHtml?.getAttribute("lang");
+
+    injectionHtml?.setAttribute("role", "dialog");
+    injectionHtml?.setAttribute("aria-modal", "false");
+
+    injectionHtml?.setAttribute(
+      "aria-label",
+      lang === "he" ? a11yTitleHe : a11yTitleEn
+    );
+    const isClickable =
+      !injectionHtml?.getAttribute("not-clickable") &&
+      !injectionHtml?.classList.contains("bthn-mako");
     const locale = lang === "he" ? "he" : "en";
     const referringDomain = window.location.hostname;
-    const link = `https://stories.bringthemhomenow.net/?utm_source=${referringDomain}&utm_medium=banner`;
+    const link = `https://stories.bringthemhomenow.net/${
+      locale === "he" ? "home-he/" : ""
+    }?utm_source=${referringDomain}&utm_medium=banner`;
 
     injectionHtml!.innerHTML = `
       <style>${styles}</style>
-      <a id="bthnLink" target="_blank" href="${link}">
-        <div id="closeBthn" role="button" tabindex="0">X</div>
+      <div id="closeBthn" role="button" tabindex="0" aria-label="${
+        locale === "en" ? a11yCloseEn : a11yCloseHe
+      }">X</div>
+      ${
+        isClickable
+          ? `<a id="bthnLink" target="_blank" href="${link}">`
+          : `<a id="bthnLink">`
+      }
+       
         <div id="bthnSubtitle">${
           texts[locale]["subtitle1"]
         } <span class="red-bg">${texts[locale]["subtitle2"]}</span> ${
       texts[locale]["subtitle3"]
     }</div>
-        <div id="timeBlocks"></div>
-        <div class="title-wrap" aria-label="${`${texts[locale]["title1"]} ${texts[locale]["title2"]}`}">
+        <div id="bthnTimeBlocks"></div>
+        <div class="bthn-title-wrap" aria-label="${`${texts[locale]["title1"]} ${texts[locale]["title2"]}`}">
           ${locale === "he" ? hebTitle : engTitle}
           
+        </div>
+        <div class="bthn-title-wrap-banner" aria-label="${`${texts[locale]["title1"]} ${texts[locale]["title2"]}`}">
+          ${hebTitleBanner}
         </div>
       </a>
     `;
@@ -320,13 +709,41 @@
     event.stopPropagation();
 
     const tickerElem = document.querySelector<HTMLDivElement>("#bthn");
+
     if (tickerElem) {
       tickerElem.remove();
     }
     clearInterval(tickerInterval);
+
+    if (sessionStorage) {
+      sessionStorage.setItem("btnhSessionClosed", "true");
+    }
+  }
+
+  function disableWidgetOnMobile() {
+    let isDisable = false;
+    const tickerElem = document.querySelector<HTMLDivElement>("#bthn");
+    const disableMobile = tickerElem?.classList.contains(
+      "btnh-disable-on-mobile-param"
+    );
+
+    if (disableMobile) {
+      // check if has query param mobile=1
+      const urlParams = new URLSearchParams(window.location.search);
+      const mobile = urlParams.get("mobile");
+      isDisable = mobile === "1" ? true : false;
+    }
+    return isDisable;
+  }
+  function disableOnSessionClosed() {
+    // if sessionStorage is available and has btnhSessionClosed key retruen false
+    const isSessionClosed =
+      sessionStorage && sessionStorage.getItem("btnhSessionClosed");
+    return isSessionClosed ? true : false;
   }
 
   function setupCounter() {
+    if (disableWidgetOnMobile() || disableOnSessionClosed()) return;
     initializeWidget();
     tickerInterval = setInterval(updateTicker, 1000);
   }
